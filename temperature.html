@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Latitude</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!--Custom CSS Link-->
+    <link rel="stylesheet" type="text/css" href="Resources/styles/style.css">
+</head>
+      
+<body>
+    <!-- Navigation Section -->
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" style="background-color: transparent" href="index.html">Latitude</a>
+            <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="lmargin" class="nav-link" href="intro.html" style="color: black">Introduction</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="lmargin" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="color: black">Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item active" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a id="lmargin" class="nav-link" href="comparison.html" style="color: black">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="lmargin" class="nav-link" href="data.html" style="color: black">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Content Section -->
+    <div class="container">
+        <div class="row">
+            <!-- Big Plot -->
+            <div class="col-lg-7 col-md-12">
+                <div class="box" style="padding-bottom: 5px;">
+                    <h3 id="bigtitle" class="title">Max Temperature</h3>
+                    <hr>
+                    <img id="imgbottom" src="Resources/assets/City Latitude vs. MaxTemp.png" alt="Max Temperature Plot">
+                    <p id="pline">There is a strong correlation between temperature and a latitude. This plot 
+                        demonstrates temperature change depending on the latitude distance away from the equator.
+                        Temperature decreases directly with an increase in a latitude distance away from the 
+                        zero-degree latitude. However, some inconsistency can be observed between Northern and 
+                        Southern Hemispheres. As can be seen on the plot above, Northern Hemisphere tends to have 
+                        a broader temperature range than the Southern Hemisphere. It is probable that temperature 
+                        does not depend on a latitude alone and there are might be some other factors that affect 
+                        temperature as well. 
+                    </p>
+                </div>
+            </div>
+            <!-- Small Plots -->
+            <div class="col-lg-5 col-md-12">
+                <div class="box">
+                <h4 id="titleleft" class="title">Visualizations</h4>
+                <hr>
+                <div class="container">
+                    <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-6">
+                            <a href="temperature.html">
+                                <img class="panel active" src="Resources/assets/City Latitude vs. MaxTemp.png" alt="Max Temperature Plot">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="humidity.html">
+                                <img class="panel" src="Resources/assets/City Latitude vs. Humidity.png" alt="Humidity Plot">
+                            </a>
+                        </div>
+                    </div>
+      
+                    <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-6">
+                            <a href="cloudiness.html">
+                                <img class="panel" src="Resources/assets/City Latitude vs. Cloudiness.png" alt="Cloudiness Plot">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="wind.html">
+                                <img class="panel" src="Resources/assets/City Latitude vs. Wind.png" alt="Wind Speed Plot">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <p id="pfoot" class="footer">Copyright &copy; 2020 <a id="footcolor" href="https://github.com/DataTell/web-design-challenge/">DataTell</a></p>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>    
+</body>
+
+</html>
