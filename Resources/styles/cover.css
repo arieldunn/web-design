@@ -139,6 +139,7 @@ h1 {
     margin-top: 5px;
   }
   #littlep {
+    color:rgba(0, 0, 0, .5);
     margin-bottom: 30px;
     padding-left: 75px;
     padding-right: 75px;
