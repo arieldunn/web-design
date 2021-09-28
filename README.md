@@ -1,4 +1,4 @@
-https://arieldunn.github.io/web-design-challenge/
+https://arieldunn.github.io/web-design/
 # Web Design - Web Visualization Dashboard (Latitude)
 
 ## Background
