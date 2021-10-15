@@ -1,4 +1,6 @@
-https://arieldunn.github.io/web-design/
+# CLICK HERE https://arieldunn.github.io/web-design/
+
+
 # Web Design - Web Visualization Dashboard (Latitude)
 
 ## Background
@@ -69,87 +71,3 @@ Ensure your repository has regular commits (i.e. 20+ commits) and a thorough REA
 * Be sure your website works at all window widths/sizes.
 * Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
 
-### Bonuses
-
-* Use a different dataset! The requirements above still hold, but make it your own.
-* Use a Bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state. See the screenshots below.
-
-### Screenshots
-
-This section contains screenshots of each page that must be built, at varying screen widths. These are a guide; you can meet the requirements without having the pages look exactly like the below images.
-
-#### <a id="landing-page"></a>Landing page
-
-Large screen:
-
-![Landing page large screen](Images/landingResize.png)
-
-Small screen:
-
-![Landing page small screen](Images/landing-sm.png)
-￼
-
-#### <a id="comparisons-page"></a>Comparisons page
-
-Large screen:
-
-![comparison page large screen](Images/comparison-lg.png)
-
-Small screen:
-
-![comparison page small screen](Images/comparison-sm.png)
-
-#### <a id="data-page"></a>Data page
-
-Large screen:
-
-![data page large screen](Images/data-lg.png)
-
-
-Small screen:
-
-![data page small screen](Images/data-sm.png)
-
-#### <a id="visualization-pages"></a>Visualization pages
-
-You'll build four of these, one for each visualization. Here's an example of one:
-
-Large screen:
-
-![visualize page large screen](Images/visualize-lg.png)
-
-Small screen:
-
-![visualize page small screen](Images/visualize-sm.png)
-
-#### <a id="navigation-menu"></a>Navigation menu
-
-Large screen:
-![nav menu large screen](Images/nav-lg.png)
-
-Small screen:
-![nav menu small screen](Images/nav-sm.png)
-
-## Rubric
-
-[Unit 11 Rubric - Web Design Homework - Web Visualization Dashboard](https://docs.google.com/document/d/16RJehl9qVOxdj7o7hUwvdlsoyrA_-kaoB8CGwr9LX_Y/edit?usp=sharing)
-
-- - -
-
-## References
-
-OpenWeatherMap.org. (2012). Сurrent weather and forecast. Retrieved from [https://openweathermap.org/](https://openweathermap.org/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/arieldunn/web-design-challenge/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
