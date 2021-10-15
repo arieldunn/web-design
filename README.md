@@ -6,26 +6,29 @@
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
-
-
-
-### Before You Begin
-
-1. Create a new repository for this project called `Web-Design-Challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, add your **html** files, as well as your **assets**, **Resources** and **visualizations** folders. Your `index.html` should be the landing page that the user first sees.
-
-4. Push the above changes to GitHub or GitLab.
-
-5. Deploy to GitHub Pages. 
-
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+
+![Image 10-14-21 at 9 48 PM](https://user-images.githubusercontent.com/82057838/137419611-772a274d-3e5a-4690-a63b-2d7324c7aec8.jpg)
+
+
+<img width="1492" alt="Screen Shot 2021-10-14 at 9 48 46 PM" src="https://user-images.githubusercontent.com/82057838/137419616-f93f5766-3818-443e-ab64-878e20d6588a.png">
+
+<img width="1493" alt="Screen Shot 2021-10-14 at 9 49 01 PM" src="https://user-images.githubusercontent.com/82057838/137419622-4c47ca28-34fb-49b8-94f0-bd8df2530ff0.png">
+<img width="1499" alt="Screen Shot 2021-10-14 at 9 50 35 PM" src="https://user-images.githubusercontent.com/82057838/137419632-d0a343c7-28a4-4ebc-a6a7-96e488c821b4.png">
+
+<img width="1332" alt="Screen Shot 2021-10-14 at 9 50 18 PM" src="https://user-images.githubusercontent.com/82057838/137419635-3ef3f399-9340-4387-a057-9e39ca400984.png">
+<img width="1482" alt="Screen Shot 2021-10-14 at 9 49 45 PM" src="https://user-images.githubusercontent.com/82057838/137419639-7a8b802d-eade-4f50-91f2-b4755a4bfca0.png">
+
+<img width="1290" alt="Screen Shot 2021-10-14 at 9 50 24 PM" src="https://user-images.githubusercontent.com/82057838/137419645-2c0eb300-6c43-45bf-9700-5c07ab032983.png">
+<img width="1499" alt="Screen Shot 2021-10-14 at 9 50 00 PM" src="https://user-images.githubusercontent.com/82057838/137419649-3c97a2c2-582f-4e48-a708-f80c930edc8a.png">
+
+<img width="1494" alt="Screen Shot 2021-10-14 at 9 49 16 PM" src="https://user-images.githubusercontent.com/82057838/137419653-a1d66b07-3bfe-46c4-9358-65527e7be5b9.png">
+
+
 
 ### Website Requirements
 
